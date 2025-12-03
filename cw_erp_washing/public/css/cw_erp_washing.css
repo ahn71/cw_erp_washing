@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #ff7a00 !important;
+}
+
+.navbar-brand,
+.navbar a,
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #ff9d47 !important;
+}
+
+.layout-side-section {
+  background-color: #2b2b2b !important;
+}
+
+.sidebar-item a {
+  color: #ffffff !important;
+}
+
+.sidebar-item:hover,
+.sidebar-item a:hover {
+  background: #ff7a00 !important;
+  color: white !important;
+}
+
+.btn-primary,
+.btn.btn-primary {
+  background-color: #ff7a00 !important;
+  border-color: #cc6200 !important;
+}
+
+.btn-primary:hover {
+  background-color: #cc6200 !important;
+}
+
+a {
+  color: #ff7a00 !important;
+}
+
+a:hover {
+  color: #cc6200 !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ff7a00 !important;
+  box-shadow: 0 0 4px #ff9d47 !important;
+}
+
+body {
+  background: #f8f8f8;
+}
+
+/*# sourceMappingURL=cw_erp_washing.css.map */

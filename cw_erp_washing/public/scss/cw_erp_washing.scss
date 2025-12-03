@@ -1,0 +1,86 @@
+// ===============================
+// CW-ERP BRAND COLORS
+// ===============================
+$primary: #ff7a00;              // main orange
+$primary-dark: #cc6200;         // darker shade for hover
+$primary-light: #ff9d47;        // lighter shade
+
+$navbar-bg: $primary;           // top bar
+$sidebar-bg: #2b2b2b;           // dark sidebar background
+$sidebar-text: #ffffff;
+$body-bg: #f8f8f8;
+
+// ===============================
+// NAVBAR
+// ===============================
+.navbar {
+    background-color: $navbar-bg !important;
+}
+
+.navbar-brand,
+.navbar a,
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: $primary-light !important;
+}
+
+// ===============================
+// SIDEBAR
+// ===============================
+.layout-side-section {
+    background-color: $sidebar-bg !important;
+}
+
+.sidebar-item a {
+    color: $sidebar-text !important;
+}
+
+.sidebar-item:hover,
+.sidebar-item a:hover {
+    background: $primary !important;
+    color: white !important;
+}
+
+// ===============================
+// BUTTONS
+// ===============================
+.btn-primary,
+.btn.btn-primary {
+    background-color: $primary !important;
+    border-color: $primary-dark !important;
+}
+
+.btn-primary:hover {
+    background-color: $primary-dark !important;
+}
+
+// ===============================
+// LINKS & TEXT
+// ===============================
+a {
+    color: $primary !important;
+}
+
+a:hover {
+    color: $primary-dark !important;
+}
+
+// ===============================
+// FORMS & INPUTS
+// ===============================
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: $primary !important;
+    box-shadow: 0 0 4px $primary-light !important;
+}
+
+// ===============================
+// PAGE BACKGROUND
+// ===============================
+body {
+    background: $body-bg;
+}

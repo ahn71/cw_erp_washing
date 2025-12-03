@@ -1,0 +1,8 @@
+{
+  "css": [
+    {
+      "source": "cw_erp_washing/public/scss/cw_erp_washing.scss",
+      "output": "cw_erp_washing/public/css/cw_erp_washing.css"
+    }
+  ]
+}

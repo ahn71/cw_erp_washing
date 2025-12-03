@@ -26,6 +26,11 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/cw_erp_washing/css/cw_erp_washing.css"
+#app_include_css = [
+#    "/assets/cw_erp_washing/css/cw_erp_washing.css"
+#]
+
+
 # app_include_js = "/assets/cw_erp_washing/js/cw_erp_washing.js"
 
 # include js, css files in header of web template
