@@ -134,9 +134,10 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+    "Employee": "cw_erp_washing.cw_erp_washing.overrides.employee.WashingEmployee"
+}
+
 
 # Document Events
 # ---------------
@@ -247,3 +248,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+website_context = {
+   "splash_image": "/assets/cw_erp_washing/images/splash_logo.png",
+}

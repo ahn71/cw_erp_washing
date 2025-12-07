@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .welcome-box {
+            background: #ffffff;
+            padding: 50px 70px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #2980b9;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #34495e;
+        }
+
+        .highlight {
+            color: #27ae60;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="welcome-box">
+        <h1>Welcome to <span class="highlight">CW ERP Washing</span></h1>
+
+        <p>This custom ERP application is designed specifically for 
+            <strong>{{ company_name }}</strong>.
+        </p>
+
+        <p>Manage your operations efficiently and effortlessly with our intuitive system.</p>
+    </div>
+
+</body>
+</html>
