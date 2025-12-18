@@ -139,6 +139,8 @@ override_doctype_class = {
 }
 
 
+
+
 # Document Events
 # ---------------
 # Hook on document methods and events
@@ -248,6 +250,6 @@ override_doctype_class = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-website_context = {
-   "splash_image": "/assets/cw_erp_washing/images/splash_logo.png",
-}
+# website_context = {
+#    "splash_image": "/assets/cw_erp_washing/images/splash_logo.png",
+# }
