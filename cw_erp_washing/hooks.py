@@ -134,9 +134,9 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-override_doctype_class = {
-    "Employee": "cw_erp_washing.cw_erp_washing.overrides.employee.WashingEmployee"
-}
+# override_doctype_class = {
+#     "Employee": "cw_erp_washing.cw_erp_washing.overrides.employee.WashingEmployee"
+# }
 
 
 
